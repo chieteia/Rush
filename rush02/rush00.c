@@ -6,7 +6,7 @@
 /*   By: ntoshihi <ntoshihi@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/18 21:35:53 by ntoshihi          #+#    #+#             */
-/*   Updated: 2021/03/18 21:54:09 by ntoshihi         ###   ########.fr       */
+/*   Updated: 2021/03/18 22:39:51 by ntoshihi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ void	rush(int x, int y)
 	int i;
 
 	i = 0;
+	if (x < 0 || y < 0)
+		return ;
 	while (i < x)
 	{
 		if (i == 0)

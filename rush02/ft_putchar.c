@@ -6,11 +6,10 @@
 /*   By: ntoshihi <ntoshihi@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/18 21:51:13 by ntoshihi          #+#    #+#             */
-/*   Updated: 2021/03/18 21:51:13 by ntoshihi         ###   ########.fr       */
+/*   Updated: 2021/03/18 22:04:09 by ntoshihi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "unistd.h"
 
 void	ft_putchar(char c)
 {
